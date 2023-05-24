@@ -1,7 +1,7 @@
 # InsulinManager
 On behalf of PiezoMotor I have created a controller system for a Piezo electric motor using ESP32-C, HM10 bluetooth module, MAX485 (ttl to rs485 converter) and an iOS Application to send commands from.
 
-The basic idea was to see if it was possible to make a simple demo for an insulinpump that displayed to preciseness of one of PiezoMotors motors. For this project I've used PiezoLEGS LL06 as a demo product. 
+The basic idea was to see if it was possible to make a simple demo for an insulinpump that displayed to preciseness in one of PiezoMotors motors. For this project I've used PiezoLEGS LL06 as a demo product. 
 
 The workflow of the project goes like this: 
 1. The user sends the amount of insulin units they'd like distributed, using the phone application.
