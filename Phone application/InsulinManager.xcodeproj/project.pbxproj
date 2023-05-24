@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFCB03F529EE8A5C0052E866 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCB03F429EE8A5C0052E866 /* AppDelegate.swift */; };
+		DFCB03F729EE8A5C0052E866 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCB03F629EE8A5C0052E866 /* SceneDelegate.swift */; };
+		DFCB03F929EE8A5C0052E866 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCB03F829EE8A5C0052E866 /* ViewController.swift */; };
+		DFCB03FC29EE8A5C0052E866 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFCB03FA29EE8A5C0052E866 /* Main.storyboard */; };
+		DFCB03FF29EE8A5C0052E866 /* InsulinManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DFCB03FD29EE8A5C0052E866 /* InsulinManager.xcdatamodeld */; };
+		DFCB040129EE8A5D0052E866 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFCB040029EE8A5D0052E866 /* Assets.xcassets */; };
+		DFCB040429EE8A5D0052E866 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFCB040229EE8A5D0052E866 /* LaunchScreen.storyboard */; };
+		DFCB040C29EED9290052E866 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCB040B29EED9290052E866 /* ScannerViewController.swift */; };
+		DFCB040E29EEDA620052E866 /* SerialBluetooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCB040D29EEDA620052E866 /* SerialBluetooth.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DFCB03F129EE8A5C0052E866 /* InsulinManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InsulinManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFCB03F429EE8A5C0052E866 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DFCB03F629EE8A5C0052E866 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DFCB03F829EE8A5C0052E866 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DFCB03FB29EE8A5C0052E866 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFCB03FE29EE8A5C0052E866 /* InsulinManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InsulinManager.xcdatamodel; sourceTree = "<group>"; };
+		DFCB040029EE8A5D0052E866 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFCB040329EE8A5D0052E866 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFCB040529EE8A5D0052E866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFCB040B29EED9290052E866 /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		DFCB040D29EEDA620052E866 /* SerialBluetooth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerialBluetooth.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFCB03EE29EE8A5C0052E866 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFCB03E829EE8A5C0052E866 = {
+			isa = PBXGroup;
+			children = (
+				DFCB03F329EE8A5C0052E866 /* InsulinManager */,
+				DFCB03F229EE8A5C0052E866 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFCB03F229EE8A5C0052E866 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFCB03F129EE8A5C0052E866 /* InsulinManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFCB03F329EE8A5C0052E866 /* InsulinManager */ = {
+			isa = PBXGroup;
+			children = (
+				DFCB03F429EE8A5C0052E866 /* AppDelegate.swift */,
+				DFCB040B29EED9290052E866 /* ScannerViewController.swift */,
+				DFCB040D29EEDA620052E866 /* SerialBluetooth.swift */,
+				DFCB03F629EE8A5C0052E866 /* SceneDelegate.swift */,
+				DFCB03F829EE8A5C0052E866 /* ViewController.swift */,
+				DFCB03FA29EE8A5C0052E866 /* Main.storyboard */,
+				DFCB040029EE8A5D0052E866 /* Assets.xcassets */,
+				DFCB040229EE8A5D0052E866 /* LaunchScreen.storyboard */,
+				DFCB040529EE8A5D0052E866 /* Info.plist */,
+				DFCB03FD29EE8A5C0052E866 /* InsulinManager.xcdatamodeld */,
+			);
+			path = InsulinManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFCB03F029EE8A5C0052E866 /* InsulinManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFCB040829EE8A5D0052E866 /* Build configuration list for PBXNativeTarget "InsulinManager" */;
+			buildPhases = (
+				DFCB03ED29EE8A5C0052E866 /* Sources */,
+				DFCB03EE29EE8A5C0052E866 /* Frameworks */,
+				DFCB03EF29EE8A5C0052E866 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InsulinManager;
+			productName = InsulinManager;
+			productReference = DFCB03F129EE8A5C0052E866 /* InsulinManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFCB03E929EE8A5C0052E866 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1250;
+				ORGANIZATIONNAME = Kim;
+				TargetAttributes = {
+					DFCB03F029EE8A5C0052E866 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = DFCB03EC29EE8A5C0052E866 /* Build configuration list for PBXProject "InsulinManager" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFCB03E829EE8A5C0052E866;
+			productRefGroup = DFCB03F229EE8A5C0052E866 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFCB03F029EE8A5C0052E866 /* InsulinManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFCB03EF29EE8A5C0052E866 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFCB040429EE8A5D0052E866 /* LaunchScreen.storyboard in Resources */,
+				DFCB040129EE8A5D0052E866 /* Assets.xcassets in Resources */,
+				DFCB03FC29EE8A5C0052E866 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFCB03ED29EE8A5C0052E866 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFCB03FF29EE8A5C0052E866 /* InsulinManager.xcdatamodeld in Sources */,
+				DFCB03F929EE8A5C0052E866 /* ViewController.swift in Sources */,
+				DFCB03F529EE8A5C0052E866 /* AppDelegate.swift in Sources */,
+				DFCB040C29EED9290052E866 /* ScannerViewController.swift in Sources */,
+				DFCB040E29EEDA620052E866 /* SerialBluetooth.swift in Sources */,
+				DFCB03F729EE8A5C0052E866 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DFCB03FA29EE8A5C0052E866 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFCB03FB29EE8A5C0052E866 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFCB040229EE8A5D0052E866 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFCB040329EE8A5D0052E866 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFCB040629EE8A5D0052E866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DFCB040729EE8A5D0052E866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFCB040929EE8A5D0052E866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UYKYR8G8AY;
+				INFOPLIST_FILE = InsulinManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KimJ.InsulinManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DFCB040A29EE8A5D0052E866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UYKYR8G8AY;
+				INFOPLIST_FILE = InsulinManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KimJ.InsulinManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFCB03EC29EE8A5C0052E866 /* Build configuration list for PBXProject "InsulinManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFCB040629EE8A5D0052E866 /* Debug */,
+				DFCB040729EE8A5D0052E866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFCB040829EE8A5D0052E866 /* Build configuration list for PBXNativeTarget "InsulinManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFCB040929EE8A5D0052E866 /* Debug */,
+				DFCB040A29EE8A5D0052E866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DFCB03FD29EE8A5C0052E866 /* InsulinManager.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DFCB03FE29EE8A5C0052E866 /* InsulinManager.xcdatamodel */,
+			);
+			currentVersion = DFCB03FE29EE8A5C0052E866 /* InsulinManager.xcdatamodel */;
+			path = InsulinManager.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DFCB03E929EE8A5C0052E866 /* Project object */;
+}
